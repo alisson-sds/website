@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Comfortaa-bold';
+  src: url('app/assets/fonts/Comfortaa-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Comfortaa-regular';
+  src: url('app/assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-regular';
+  src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url('/assets/fonts/Poppins-bold.ttf') format('truetype');
+}
+
+body {
+    background-color: #F8F9FA;
+    color: #4a4a4a;
+}
+
+li {
+  list-style-type: none;
+}
