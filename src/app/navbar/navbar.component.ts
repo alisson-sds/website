@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
-import { NgOptimizedImage } from '@angular/common'
+import { NgOptimizedImage, NgStyle } from '@angular/common'
 
 @Component({
   selector: 'app-navbar',
-  imports: [NgOptimizedImage],
+  imports: [NgOptimizedImage, NgStyle],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })

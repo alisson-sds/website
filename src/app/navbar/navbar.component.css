@@ -14,7 +14,11 @@
     gap: 60px;
     font-family: 'Comfortaa', sans-serif;    
     font-weight: 400;    
-    font-size: 25px;   
+    font-size: 20px;   
     cursor: pointer; 
     user-select: none;
+}
+
+.nav-links li:hover{
+    text-decoration: underline;
 }
