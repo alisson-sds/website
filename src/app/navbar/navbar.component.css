@@ -6,7 +6,7 @@
 .container{
     display: flex;   
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nav-links{
@@ -16,7 +16,7 @@
     font-weight: 400;    
     font-size: 20px;   
     cursor: pointer; 
-    user-select: none;
+    user-select: none;    
 }
 
 .nav-links li:hover{
