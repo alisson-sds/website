@@ -3,8 +3,22 @@
     <app-navbar></app-navbar>
     <div [ngClass]="['home-container']">
       <div class="home-main">
-        <div>
-          <h1>Guia Lulu da Pomerânia</h1>
+        <div class="text-main">
+          <div>
+          <p>Olá,</p>
+          <p>Seja bem-vindo(a) ao</p>
+          </div>
+          <div class="title-main">
+            <h1>Guia Lulu</h1>
+            <h1 [ngStyle]="{'text-align': 'end'}">da Pomerânia</h1>
+          </div>
+          <p>Aqui vamos aprender as principais dicas para manter
+            seu lulu saudável e muito feliz.
+          </p>
+          <div>
+            <button>Botão mágico (aumente o som)</button>
+            <button>Monte o perfil do seu lulu</button>
+          </div>
         </div>
         <div>
           <img ngSrc="/images/lulu-home.png" [ngClass]="['home-image']" width="440" height="600" priority>

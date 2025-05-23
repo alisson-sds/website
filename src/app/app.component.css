@@ -1,8 +1,4 @@
 .content{
-    /*background: linear-gradient(160deg, #FF6B6B 10%, #DAA520 60%, #FF6B6B);*/
-    /*background: linear-gradient(160deg, #1E90FF 10%, #32cd32 50%, #1E90FF);*/
-    /*background: linear-gradient(160deg, #FFb6c1 10%, #DAA520 60%, #FFb6c1);*/
-    /*background: linear-gradient(120deg, #DAA520, #FF6B6B, #DAA520);*/
     background: linear-gradient(120deg, #FF6B6B, #DAA520, #FF6B6B);
     height: 100vh;    
 }
@@ -24,9 +20,7 @@
     justify-content: space-between;
     padding: 30px;
     width: 90%;
-    height: 75vh;
-    
-    /*background: linear-gradient(160deg, #DAA520 10%, #FF6B6B 80%, #DAA520);*/
+    height: 75vh;    
 }
 
 .home-image{
@@ -34,3 +28,23 @@
     border-radius: 60px;
 }
 
+.text-main{
+    border: 1px solid red;
+    width: 640px;
+    height: 600px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;    
+    font-weight: 400;    
+    font-size: 20px;  
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.title-main{
+    font-family: 'Comfortaa', sans-serif;    
+    font-weight: 400;    
+    font-size: 40px;  
+    display: flex;
+    flex-direction: column;
+}
