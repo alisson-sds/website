@@ -1,6 +1,10 @@
 .content{
-    background: linear-gradient(160deg, #FF6B6B 10%, #DAA520 60%, #FF6B6B);
-    height: 100vh;
+    /*background: linear-gradient(160deg, #FF6B6B 10%, #DAA520 60%, #FF6B6B);*/
+    /*background: linear-gradient(160deg, #1E90FF 10%, #32cd32 50%, #1E90FF);*/
+    /*background: linear-gradient(160deg, #FFb6c1 10%, #DAA520 60%, #FFb6c1);*/
+    /*background: linear-gradient(120deg, #DAA520, #FF6B6B, #DAA520);*/
+    background: linear-gradient(120deg, #FF6B6B, #DAA520, #FF6B6B);
+    height: 100vh;    
 }
 
 .home-container{

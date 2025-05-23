@@ -1,6 +1,10 @@
 .navbar{
     padding-left: 35px;
     padding-right: 35px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
@@ -11,7 +15,7 @@
 
 .nav-links{
     display: flex;   
-    gap: 60px;
+    gap: 70px;
     font-family: 'Comfortaa', sans-serif;    
     font-weight: 400;    
     font-size: 20px;   
